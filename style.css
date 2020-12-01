@@ -129,6 +129,7 @@ figcaption {
 @media (max-width:600px) {
 
     .portrait {
+        margin-bottom: 1em;
         display: block;
         margin-left: auto;
         margin-right: auto;
