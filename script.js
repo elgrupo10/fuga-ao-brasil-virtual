@@ -13,7 +13,7 @@ localStorage.setItem('EasterEgg4', false);*/
 
 if(BotaoEasterEgg1Em!=null){
     BotaoEasterEgg1Em.addEventListener('click', function() {
-        let JanelaAlvoEM = document.querySelector('.Easter-egg');
+        let JanelaAlvoEM = document.querySelector('.easter-egg');
         let mascaraEM = document.querySelector('.mask');
         if (localStorage.getItem('EasterEgg1') != 'true') {
             localStorage.setItem('numEggs', +localStorage.getItem('numEggs') + 1);
@@ -28,7 +28,7 @@ if(BotaoEasterEgg1Em!=null){
 
 if(BotaoEasterEgg2Em!=null){
     BotaoEasterEgg2Em.addEventListener('click', function() {
-        let JanelaAlvoEM = document.querySelector('.Easter-egg');
+        let JanelaAlvoEM = document.querySelector('.easter-egg');
         let mascaraEM = document.querySelector('.mask');
         if (localStorage.getItem('EasterEgg2') != 'true') {
             localStorage.setItem('numEggs', +localStorage.getItem('numEggs') + 1);
@@ -43,7 +43,7 @@ if(BotaoEasterEgg2Em!=null){
 
 if(BotaoEasterEgg3Em!=null){
     BotaoEasterEgg3Em.addEventListener('click', function() {
-        let JanelaAlvoEM = document.querySelector('.Easter-egg');
+        let JanelaAlvoEM = document.querySelector('.easter-egg');
         let mascaraEM = document.querySelector('.mask');
         if (localStorage.getItem('EasterEgg3') != 'true') {
             localStorage.setItem('numEggs', +localStorage.getItem('numEggs') + 1);
@@ -58,7 +58,7 @@ if(BotaoEasterEgg3Em!=null){
 
 if(BotaoEasterEgg4Em!=null){
     BotaoEasterEgg4Em.addEventListener('click', function() {
-        let JanelaAlvoEM = document.querySelector('.Easter-egg');
+        let JanelaAlvoEM = document.querySelector('.easter-egg');
         let mascaraEM = document.querySelector('.mask');
         if (localStorage.getItem('EasterEgg4') != 'true') {
             localStorage.setItem('numEggs', +localStorage.getItem('numEggs') + 1);
@@ -73,7 +73,7 @@ if(BotaoEasterEgg4Em!=null){
 
 let ClicarMascaraSairEM = document.querySelector('.mask');
 ClicarMascaraSairEM.addEventListener('click', function(){
-    let JanelaAlvoEM = document.querySelector('.Easter-egg');
+    let JanelaAlvoEM = document.querySelector('.easter-egg');
     let mascaraEM = document.querySelector('.mask');
     JanelaAlvoEM.classList.remove('showing');
     mascaraEM.classList.remove('showing');
@@ -81,7 +81,7 @@ ClicarMascaraSairEM.addEventListener('click', function(){
 
 let ClicarXSairEM = document.querySelector('.button');
 ClicarXSairEM.addEventListener('click', function(){
-    let JanelaAlvoEM = document.querySelector('.Easter-egg');
+    let JanelaAlvoEM = document.querySelector('.easter-egg');
     let mascaraEM = document.querySelector('.mask');
     JanelaAlvoEM.classList.remove('showing');
     mascaraEM.classList.remove('showing');

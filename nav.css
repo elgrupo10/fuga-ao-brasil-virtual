@@ -106,7 +106,7 @@ nav a.active,nav a:hover {
 
 }
 
-@media (max-width:858px) {
+@media (max-width:1080px) {
     label.logo {
         margin-left:40px; 
     }

@@ -153,7 +153,7 @@ figcaption {
     color:red;
     cursor: pointer;
 }
-.Easter-egg {
+.easter-egg {
     position: fixed;
     top: calc(50% - (109px / 2));
     left: calc(50% - (300px / 2));
@@ -165,7 +165,7 @@ figcaption {
     max-width: 300px;
 }
 
-.Easter-egg header{
+.easter-egg header{
     position: static;
 }
 
@@ -176,7 +176,7 @@ figcaption {
     padding-top: 2%;
 }
 
-.Easter-egg header {
+.easter-egg header {
     display: flex;
     justify-content: flex-end;
     padding-right: 1em;
@@ -190,7 +190,7 @@ figcaption {
     display: flex;
     flex-direction: column;
 }
-.Easter-egg.showing {
+.easter-egg.showing {
     opacity: 1;
     transform: scale(1);
     z-index: 10;
