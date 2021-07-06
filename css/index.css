@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
 body {
     font-family: 'Texturina', serif;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/backgroundindex.jpg') center center no-repeat;;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/backgroundindex.jpg') center center no-repeat;;
     background-size: cover;
     height:100vh;
     
@@ -22,7 +22,7 @@ article {
     flex:1;
     display:grid;
     color: white;
-    transition: all 1.5s ease-out; 
+    transition: all 0.5s ease-out; 
 }
 
 
